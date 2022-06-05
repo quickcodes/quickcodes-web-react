@@ -1,31 +1,30 @@
 :root {
   --fg-color: #ffffff;
   --bg-color: #000;
-  --color00: #E1578A;
-  --color01: #FF69EB;
-  --color02: #FF86C8;
-  --color03: #FFA3A5;
-  --color04: #FFBF81;
-  --color05: #FFDC5E;
-  --color06: #FDFF8F;
+  --color00: #e1578a;
+  --color01: #ff69eb;
+  --color02: #ff86c8;
+  --color03: #ffa3a5;
+  --color04: #ffbf81;
+  --color05: #ffdc5e;
+  --color06: #fdff8f;
 }
 
-
 h1 {
-  font-family:  'Chonburi', cursive;
+  font-family: 'Chonburi', cursive;
   font-size: 300%;
   color: var(--color03);
   text-align: center;
 }
 
 h2 {
-  font-family:  'Chonburi', cursive;
+  font-family: 'Chonburi', cursive;
   font-size: 200%;
   color: var(--color03);
   text-align: center;
 }
 
-a{
+a {
   color: var(--color01);
 }
 
@@ -37,15 +36,34 @@ p {
 }
 
 body {
-  font-family:  'Lora', serif;;
+  font-family: 'Lora', serif;
   background-color: var(--bg-color);
   color: var(--fg-color);
 }
 
-input{
+input {
   margin: 5px;
   align-items: center;
   text-align: center;
+}
+
+header {
+  display: block;
+  border-bottom: 1px solid var(--fg-color);
+  margin: auto;
+  float: none;
+  text-align: center;
+  max-width: 70%;
+  padding: 10px;
+}
+
+main {
+  /* text-align: center; */
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  /* float: none; */
+  border-bottom: 1px solid var(--color00);
 }
 
 .intro {
@@ -53,35 +71,35 @@ input{
   text-align: center;
 }
 
-.big_pink{
-  font-family:  'Chonburi', cursive;
+.big_pink {
+  font-family: 'Chonburi', cursive;
   width: 100%;
   text-align: center;
   color: var(--color03);
   font-size: 50px;
 }
 
-.big_purple{
-  font-family:  'Chonburi', cursive;
+.big_purple {
+  font-family: 'Chonburi', cursive;
   width: 100%;
   text-align: center;
   color: purple;
   font-size: 50px;
 }
 
-.centre{  
+.centre {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.quotes{
+.quotes {
   text-align: center;
   font-family: 'Marck Script', cursive;
   line-height: 1.5em;
   font-size: 130%;
 }
 
-.nav-button{
+.nav-button {
   margin: 10px;
 }
