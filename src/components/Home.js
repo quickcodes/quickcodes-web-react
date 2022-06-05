@@ -48,7 +48,7 @@ export default function Home() {
 
         <p className="intro">{INTRO_DESC}</p>
 
-        <p>this is text</p>
+        <h3>Website Guide</h3>
       </main>
     </div>
   );

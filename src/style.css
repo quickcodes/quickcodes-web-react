@@ -24,6 +24,16 @@ h2 {
   text-align: center;
 }
 
+
+h3 {
+  font-family: 'Chonburi', cursive;
+  font-size: 150%;
+  color: var(--color03);
+  /* text-align: center; */
+  margin-left: 2%;
+}
+
+
 a {
   color: var(--color01);
 }
