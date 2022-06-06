@@ -57,7 +57,7 @@ export default function Header() {
             </div>
 
             <div>
-            <p className="sql ">
+            <p className="sql glow">
                 {/* <b>"</b>
                 {QUOTES}
                 <b>"</b> */}
