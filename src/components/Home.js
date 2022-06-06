@@ -6,7 +6,7 @@ export default function Home() {
   const LAST_NAME = 'Soni';
   const INTRO_HEAD = 'Hi, I am QuickCodes';
   const INTRO_DESC =
-    'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Software. I am also a Computer Science Student.';
+    'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Software. I am also a Computer Science Student. And using Linux Box.';
   const nav_bar = [
     { name: 'Home' },
     { name: 'About' },
@@ -14,8 +14,9 @@ export default function Home() {
     { name: 'Github' },
     { name: 'Contact' },
   ];
-  const QUOTES = ' Descipline and regret both are painfull \nDecide what you want to live with. ';
-  const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg'
+  const QUOTES =
+    ' Descipline and regret both are painfull \nDecide what you want to live with. ';
+  const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg';
 
   return (
     <div>
@@ -34,14 +35,14 @@ export default function Home() {
 
         <div className="centre">
           <nav>
-          {nav_bar.map((x) => (
-            <span className="nav-button">
-              [ <a href="/">{x.name}</a> ]
-            </span>
-          ))}
+            {nav_bar.map((x) => (
+              <span className="nav-button">
+                [ <a href="/">{x.name}</a> ]
+              </span>
+            ))}
           </nav>
         </div>
-        
+
         <div className="centre">
           <p className="quotes">
             <b>"</b>
@@ -54,16 +55,13 @@ export default function Home() {
       <main>
         <h2>{INTRO_HEAD}</h2>
 
+        <div className="centre">
+          <img src={AVTAR_IMAGE} alt="Please check path" type="jpg" />
+        </div>
+
         <p className="intro">{INTRO_DESC}</p>
 
-        <div className="centre">
-          <img
-            src={AVTAR_IMAGE}
-            alt="Please check path"
-            type="jpg"
-          />
-        </div>
-        <h3>Website Guide</h3>
+        {/* <h3>Website Guide</h3> */}
       </main>
     </div>
   );
