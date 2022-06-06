@@ -25,7 +25,7 @@ export default function Home() {
         <div className='centre'>
           <img src="/images/1040.jpg" alt="Please check path" type="jpg" />
           <img src="/images/1150.jpg" alt="Please check path" type="jpg" />
-          <img src="/images/1175.jpg" alt="Please check path" type="jpg" />
+          <img src="/images/1136.jpg" alt="Please check path" type="jpg" />
         </div>
 
         <h1>
