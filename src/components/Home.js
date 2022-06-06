@@ -10,19 +10,18 @@ export default function Home() {
     'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Software. I am also a Computer Science Student. And using Linux Box.';
 
   const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg';
-  const avtar_img = "./images/avatar.jpg";
+  const avtar_img = './images/avatar.jpg';
 
   return (
     <div>
       <Header />
 
       <main>
-        <h2>{INTRO_HEAD}
-            <span className="big_pink">{FIRST_NAME}</span>
-            <span className="big_purple">&nbsp;{LAST_NAME}</span>
+        <h2>
+          {INTRO_HEAD}
+          <span className="big_pink">{FIRST_NAME}</span>
+          <span className="big_purple">&nbsp;{LAST_NAME}</span>
         </h2>
-
-
 
         <div className="centre">
           <img src={AVTAR_IMAGE} alt="Please check path" type="jpg" />
@@ -32,7 +31,12 @@ export default function Home() {
 
         <p className="intro">{INTRO_DESC}</p>
 
-        {/* <h3>Website Guide</h3> */}
+        <h3>Website Guide</h3>
+        <ul>
+          <li>If you find this website ugly - <a href="/minimal">It's minimal</a></li>
+          <li>Check Out my <a href="/projects">Projects</a></li>
+          <li>My <a href="/projects"></a></li>
+        </ul>
       </main>
     </div>
   );

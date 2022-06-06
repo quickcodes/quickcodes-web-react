@@ -32,6 +32,10 @@ h3 {
   margin-left: 2%;
 }
 
+ul{
+  color: var(--fg-color);
+}
+
 a {
   color: var(--color01);
 }
