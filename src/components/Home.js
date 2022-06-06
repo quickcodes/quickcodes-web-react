@@ -14,7 +14,8 @@ export default function Home() {
     { name: 'Github' },
     { name: 'Contact' },
   ];
-  const QUOTES = ' Every Star Shines Differently ';
+  const QUOTES = ' Descipline and regret both are painfull \nDecide what you want to live with. ';
+  const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg'
 
   return (
     <div>
@@ -23,24 +24,30 @@ export default function Home() {
           <span className="big_pink">{FIRST_NAME}</span>
           <span className="big_purple">&nbsp;{LAST_NAME}</span>
         </h1>
+
         <div className="centre">
-          <input type="text" placeholder="Search Blogs" />
-          <button>Go</button>
+          <form id="search-site">
+            <input type="text" placeholder="Search Blogs" />
+            <button>Go</button>
+          </form>
         </div>
+
+        <div className="centre">
+          <nav>
+          {nav_bar.map((x) => (
+            <span className="nav-button">
+              [ <a href="/">{x.name}</a> ]
+            </span>
+          ))}
+          </nav>
+        </div>
+        
         <div className="centre">
           <p className="quotes">
             <b>"</b>
             {QUOTES}
             <b>"</b>
           </p>
-        </div>
-
-        <div className="centre">
-          {nav_bar.map((x) => (
-            <span className="nav-button">
-              [ <a href="/">{x.name}</a> ]
-            </span>
-          ))}
         </div>
       </header>
 
@@ -49,8 +56,13 @@ export default function Home() {
 
         <p className="intro">{INTRO_DESC}</p>
 
-        {/* <img src={avtar} alt="Please check path" type="jpg"/> */}
-
+        <div className="centre">
+          <img
+            src={AVTAR_IMAGE}
+            alt="Please check path"
+            type="jpg"
+          />
+        </div>
         <h3>Website Guide</h3>
       </main>
     </div>
