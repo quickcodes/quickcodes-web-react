@@ -17,15 +17,23 @@ export default function Home() {
   const QUOTES =
     ' Descipline and regret both are painfull \nDecide what you want to live with. ';
   const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg';
+  let rand_img1 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
+  let rand_img2 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
+  let rand_img3 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
+
+  rand_img1 = "/images/" + rand_img1 + ".jpg";
+  rand_img2 = "/images/" + rand_img2 + ".jpg";
+  rand_img3 = "/images/" + rand_img3 + ".jpg";
 
   return (
     <div>
       <header>
 
         <div className='centre'>
-          <img src="/images/1040.jpg" alt="Please check path" type="jpg" />
-          <img src="/images/1150.jpg" alt="Please check path" type="jpg" />
-          <img src="/images/1136.jpg" alt="Please check path" type="jpg" />
+          {/* <span>{rand_img1}</span> */}
+          <img src={rand_img1} alt="Please check path" type="jpg" />
+          <img src={rand_img2} alt="Please check path" type="jpg" />
+          <img src={rand_img3} alt="Please check path" type="jpg" />
         </div>
 
         <h1>
