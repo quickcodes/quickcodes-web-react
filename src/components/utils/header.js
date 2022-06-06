@@ -18,10 +18,15 @@ export default function Header() {
     let rand_img1 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
     let rand_img2 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
     let rand_img3 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
-  
-    rand_img1 = "/images/" + rand_img1 + ".jpg";
-    rand_img2 = "/images/" + rand_img2 + ".jpg";
-    rand_img3 = "/images/" + rand_img3 + ".jpg";
+    
+    // rand_img1 = "/images/" + rand_img1 + ".jpg";
+    // rand_img2 = "/images/" + rand_img2 + ".jpg";
+    // rand_img3 = "/images/" + rand_img3 + ".jpg";
+
+
+    rand_img1 = "https://bugswriter.com/pics/" + rand_img1 + ".jpg";
+    rand_img2 = "https://bugswriter.com/pics/" + rand_img2 + ".jpg";
+    rand_img3 = "https://bugswriter.com/pics/" + rand_img3 + ".jpg";
 
   return (
     <div>

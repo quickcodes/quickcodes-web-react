@@ -33,9 +33,15 @@ export default function Home() {
 
         <h3>Website Guide</h3>
         <ul>
-          <li>If you find this website ugly - <a href="/minimal">It's minimal</a></li>
-          <li>Check Out my <a href="/projects">Projects</a></li>
-          <li>My <a href="/projects">Blogs</a></li>
+          <li>
+            If you find this website ugly - <a href="/minimal">It's minimal</a>
+          </li>
+          <li>
+            Check Out my <a href="/projects">Projects</a>
+          </li>
+          <li>
+            My <a href="/projects">Blogs</a>
+          </li>
         </ul>
       </main>
     </div>
