@@ -1,4 +1,5 @@
 import React from 'react';
+// import avtar from '../avtar.jpg'
 
 export default function Home() {
   const FIRST_NAME = 'Dhruv';
@@ -47,6 +48,8 @@ export default function Home() {
         <h2>{INTRO_HEAD}</h2>
 
         <p className="intro">{INTRO_DESC}</p>
+
+        {/* <img src={avtar} alt="Please check path" type="jpg"/> */}
 
         <h3>Website Guide</h3>
       </main>
