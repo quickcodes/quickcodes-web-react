@@ -21,6 +21,13 @@ export default function Home() {
   return (
     <div>
       <header>
+
+        <div className='centre'>
+          <img src="/images/1040.jpg" alt="Please check path" type="jpg" />
+          <img src="/images/1150.jpg" alt="Please check path" type="jpg" />
+          <img src="/images/1175.jpg" alt="Please check path" type="jpg" />
+        </div>
+
         <h1>
           <span className="big_pink">{FIRST_NAME}</span>
           <span className="big_purple">&nbsp;{LAST_NAME}</span>
@@ -57,6 +64,7 @@ export default function Home() {
 
         <div className="centre">
           <img src={AVTAR_IMAGE} alt="Please check path" type="jpg" />
+          {/* <img src="/images/1000.jpg" alt="Please check path" type="jpg" /> */}
         </div>
 
         <p className="intro">{INTRO_DESC}</p>
