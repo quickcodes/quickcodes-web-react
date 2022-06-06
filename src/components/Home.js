@@ -8,11 +8,11 @@ export default function Home() {
   const INTRO_DESC =
     'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Software. I am also a Computer Science Student. And using Linux Box.';
   const nav_bar = [
-    { name: 'Home', link: "/about" },
+    { name: 'Home', link: "/" },
     { name: 'About', link: "/about" },
-    { name: 'Blog', link: "/about" },
-    { name: 'Github', link: "/about" },
-    { name: 'Contact', link: "/about" },
+    { name: 'Blog', link: "/blog" },
+    { name: 'Github', link: "/github" },
+    { name: 'Contact', link: "/contact" },
   ];
   const QUOTES =
     ' Descipline and regret both are painfull \nDecide what you want to live with. ';
