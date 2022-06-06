@@ -7,7 +7,7 @@ export default function Home() {
   const LAST_NAME = 'Soni';
   const INTRO_HEAD = 'Hi, I am ';
   const INTRO_DESC =
-    'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Software. I am also a Computer Science Student. And using Linux Box.';
+    'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Software. I am also a Computer Science Student and using Linux Box.';
 
   const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg';
   const avtar_img = './images/avatar.jpg';

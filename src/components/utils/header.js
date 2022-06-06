@@ -3,7 +3,6 @@ import React from 'react';
 export default function Header() {
     const FIRST_NAME = 'Dhruv';
     const LAST_NAME = 'Soni';
-      'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Software. I am also a Computer Science Student. And using Linux Box.';
     const nav_bar = [
       { name: 'Home', link: "/home" },
       { name: 'About', link: "/about" },
