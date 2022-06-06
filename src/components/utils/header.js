@@ -9,10 +9,11 @@ export default function Header() {
       { name: 'About', link: "/about" },
       { name: 'Blog', link: "/blog" },
       { name: 'Github', link: "/github" },
-      { name: 'Contact', link: "/cont" },
+      { name: 'Contact', link: "/contact" },
     ];
     const QUOTES =
-      ' Descipline and regret both are painfull \nDecide what you want to live with. ';
+      // ' Descipline and regret both are painfull \nDecide what you want to live with. ';
+      'try{<br/>   your best;<br/>}catch(Yourself){<br/>   everytime you fail;<br/>}'
 
     let rand_img1 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
     let rand_img2 = Math.floor(Math.random() * (1190 - 1000 + 1)) + 1000;
@@ -55,11 +56,23 @@ export default function Header() {
             </nav>
             </div>
 
-            <div className="centre">
-            <p className="quotes">
-                <b>"</b>
+            <div>
+            <p className="sql ">
+                {/* <b>"</b>
                 {QUOTES}
-                <b>"</b>
+                <b>"</b> */}
+                {/* <p> */}
+                {/* try&#123;<br/>   your best;<br/>&#10101;catch(Yourself)&#123;<br/>   everytime you fail;<br/>&#10101; */}
+                {/* </p> */}
+                <span className='blue'> SELECT </span>
+                <span className='red'> * </span>
+                <span className='blue'> FROM </span>
+                <span className='red'> people </span>
+                <span className='blue'> WHERE </span>
+                <span className='red'> goals </span>
+                <span className='blue'> = '</span>
+                <span className='red'> same</span>
+                <span className='blue'> ' </span>
             </p>
             </div>
         </header>
