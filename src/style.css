@@ -126,3 +126,17 @@ nav {
 .nav-button {
   margin: 10px;
 }
+
+
+
+
+
+.finger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16em;
+  animation: in-out 1.5s ease-in-out infinite;
+  z-index: 1;
+}

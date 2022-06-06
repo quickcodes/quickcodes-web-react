@@ -31,9 +31,9 @@ export default function Home() {
 
         <div className='centre'>
           {/* <span>{rand_img1}</span> */}
-          <img src={rand_img1} alt="Please check path" type="jpg" />
-          <img src={rand_img2} alt="Please check path" type="jpg" />
-          <img src={rand_img3} alt="Please check path" type="jpg" />
+          <img src={rand_img1} alt="No image" type="jpg" />
+          <img src={rand_img2} alt="No image" type="jpg" />
+          <img src={rand_img3} alt="No image" type="jpg" />
         </div>
 
         <h1>
@@ -71,7 +71,7 @@ export default function Home() {
         <h2>{INTRO_HEAD}</h2>
 
         <div className="centre">
-          <img src={AVTAR_IMAGE} alt="Please check path" type="jpg" />
+          <img src={AVTAR_IMAGE} alt="No image" type="jpg" />
           {/* <img src="/images/1000.jpg" alt="Please check path" type="jpg" /> */}
         </div>
 
