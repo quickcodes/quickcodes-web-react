@@ -12,21 +12,21 @@
 
 h1 {
   font-family: 'Chonburi', cursive;
-  font-size: 300%;
+  font-size: 250%;
   color: var(--color03);
   text-align: center;
 }
 
 h2 {
   font-family: 'Chonburi', cursive;
-  font-size: 200%;
+  font-size: 150%;
   color: var(--color03);
   text-align: center;
 }
 
 h3 {
   font-family: 'Chonburi', cursive;
-  font-size: 150%;
+  font-size: 100%;
   color: var(--color03);
   /* text-align: center; */
   margin-left: 2%;
@@ -106,7 +106,7 @@ nav {
   width: 100%;
   text-align: center;
   color: var(--color03);
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .big_purple {
@@ -114,7 +114,7 @@ nav {
   width: 100%;
   text-align: center;
   color: purple;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .centre {
@@ -136,10 +136,6 @@ nav {
   margin: 10px;
 }
 
-
-
-
-
 .finger {
   position: absolute;
   top: 50%;
@@ -151,17 +147,32 @@ nav {
 }
 
 .blue{
-  color: white;
+  color: rgb(0, 140, 255);
 }
 
 .red{
   color: red;
 }
 
+.white{
+  color: var(--fg-color);
+}
+
 .sql{
+  font-family: 'Courier New', monospace;
   text-align: center;
   font-size: 120%;
 }
+
+.coding-font {
+  font-family: 'Courier New', monospace;
+}
+
+.start {
+  margin-top: 40px;
+  text-align: start;
+}
+
 
 .glow{
   text-shadow:

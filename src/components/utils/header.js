@@ -51,7 +51,7 @@ export default function Header() {
             </div>
 
             <div className="centre">
-            <nav>
+            <nav className="coding-font">
                 {nav_bar.map((x) => (
                 <span className="nav-button">
                     [ <a href={x.link}>{x.name}</a> ]
@@ -68,15 +68,15 @@ export default function Header() {
                 {/* <p> */}
                 {/* try&#123;<br/>   your best;<br/>&#10101;catch(Yourself)&#123;<br/>   everytime you fail;<br/>&#10101; */}
                 {/* </p> */}
-                <span className='blue'> SELECT </span>
+                <span className='white'> SELECT </span>
                 <span className='red'> * </span>
-                <span className='blue'> FROM </span>
+                <span className='white'> FROM </span>
                 <span className='red'> people </span>
-                <span className='blue'> WHERE </span>
+                <span className='white'> WHERE </span>
                 <span className='red'> goals </span>
-                <span className='blue'> = '</span>
+                <span className='white'> = '</span>
                 <span className='red'> same</span>
-                <span className='blue'> ' </span>
+                <span className='white'> ' </span>
             </p>
             </div>
         </header>

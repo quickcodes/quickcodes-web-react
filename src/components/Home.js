@@ -29,10 +29,10 @@ export default function Home() {
           {/* <img src="/images/1055.jpg" alt="No image" type="jpg" /> */}
         </div>
 
-        <p className="intro">{INTRO_DESC}</p>
+        <p className="intro coding-font">{INTRO_DESC}</p>
 
         <h3>Website Guide</h3>
-        <ul>
+        <ul className="coding-font">
           <li>
             If you find this website ugly - <a href="/minimal">It's minimal</a>
           </li>
@@ -41,6 +41,9 @@ export default function Home() {
           </li>
           <li>
             My <a href="/projects">Blogs</a>
+          </li>
+          <li>
+            Website is created by Linux Lover.
           </li>
         </ul>
       </main>
