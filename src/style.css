@@ -21,7 +21,7 @@ h2 {
   font-family: 'Chonburi', cursive;
   font-size: 150%;
   color: var(--color03);
-  text-align: center;
+  /* text-align: center; */
   margin: 20px;
 }
 
@@ -82,8 +82,13 @@ main {
   width: 90%;
   max-width: 800px;
   padding-bottom: 5px;
+  padding-top: 10px;
   /* float: none; */
   border-bottom: 2px solid var(--color00);
+}
+
+img {
+  margin: 10px;
 }
 
 .top3-img {
@@ -108,6 +113,10 @@ nav {
   text-align: center;
 }
 
+.text-centre {
+  text-align: center;
+}
+
 .big_pink {
   font-family: 'Chonburi', cursive;
   width: 100%;
@@ -128,6 +137,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin: 10px; */
 }
 
 .quotes {
@@ -236,6 +246,11 @@ nav {
     text-align: justify;
     float: right;
     /* width: 50%; */
+  }
+
+  .intro {
+    text-align: start;
+    padding-top: 10px;
   }
 }
 

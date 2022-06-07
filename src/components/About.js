@@ -16,7 +16,7 @@ export default function About() {
         <ul className="tables-points coding-font">
           <li>
             When someone asks Tell me about yourself? It almost feels like
-            someone allowed them to sing an old song. Same lyrics with some
+            someone allowed me to sing an old song. Same lyrics with some
             variables in it.
           </li>
 
@@ -28,6 +28,10 @@ export default function About() {
             <span className="blue"> $CITY. </span>
             But Putting variables in a shity old 90's line will not define who
             you are right?
+          </li>
+
+          <li>What defines me is that i like to live a minimal life. where no continous blotted &amp; shity notifications are comming to my phone.
+            
           </li>
         </ul>
       </div>
