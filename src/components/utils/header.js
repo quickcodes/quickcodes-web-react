@@ -33,9 +33,9 @@ export default function Header() {
 
             <div className='centre'>
                 {/* <span>{rand_img1}</span> */}
-                <img src={rand_img1} alt="No image" type="jpg" />
-                <img src={rand_img2} alt="No image" type="jpg" />
-                <img src={rand_img3} alt="No image" type="jpg" />
+                <img className="top3-img" src={rand_img1} alt="No image" type="jpg" />
+                <img className="top3-img" src={rand_img2} alt="No image" type="jpg" />
+                <img className="top3-img" src={rand_img3} alt="No image" type="jpg" />
             </div>
 
             <h1>

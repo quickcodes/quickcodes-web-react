@@ -86,7 +86,7 @@ main {
   border-bottom: 2px solid var(--color00);
 }
 
-img {
+.top3-img {
   width: 40%;
   max-width: 240px;
   margin-left: 10x;
@@ -213,7 +213,7 @@ nav {
 }
 
 @media only screen and (min-width: 500px) {
-  /* mobile css */
+  /* desktop css */
   .nav-button {
     margin: 5px;
     margin-top: 500px;
