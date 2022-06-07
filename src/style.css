@@ -157,6 +157,10 @@ nav {
   color: rgb(0, 140, 255);
 }
 
+.green {
+  color: rgb(0, 255, 76);
+}
+
 .red {
   color: red;
 }
@@ -192,6 +196,12 @@ nav {
     margin-top: 500px;
     /* color: red; */
   }
+
+  .tables-points {
+    /* width: 70%; */
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
 
 @media only screen and (min-width: 500px) {
@@ -200,5 +210,11 @@ nav {
     margin: 5px;
     margin-top: 500px;
     /* color: red; */
+  }
+
+  .tables-points {
+    /* width: 70%; */
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
