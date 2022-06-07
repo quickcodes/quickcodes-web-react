@@ -189,6 +189,14 @@ nav {
     0 0 80px #ff0, 0 0 90px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
 }
 
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
 @media only screen and (max-width: 500px) {
   /* mobile css */
   .nav-button {
@@ -217,4 +225,18 @@ nav {
     margin-left: 10%;
     margin-right: 10%;
   }
+
+  .half-left {
+    text-align: justify;
+    float: left;
+    /* width: 50%; */
+  }
+  
+  .half-right {
+    text-align: justify;
+    float: right;
+    /* width: 50%; */
+  }
 }
+
+
