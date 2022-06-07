@@ -28,7 +28,7 @@ export default function Header() {
     rand_img3 = "https://bugswriter.com/pics/" + rand_img3 + ".jpg";
 
   return (
-    <div>
+    <div className="half-screen">
         <header>
 
             <div className='centre'>
@@ -38,10 +38,10 @@ export default function Header() {
                 <img src={rand_img3} alt="No image" type="jpg" />
             </div>
 
-            {/* <h1>
+            <h1>
                 <span className="big_pink">{FIRST_NAME}</span>
                 <span className="big_purple">&nbsp;{LAST_NAME}</span>
-            </h1> */}
+            </h1>
 
             <div className="centre">
             <form id="search-site">
@@ -54,7 +54,7 @@ export default function Header() {
             <nav className="coding-font">
                 {nav_bar.map((x) => (
                 <span className="nav-button">
-                    [ <a href={x.link}>{x.name}</a> ]
+                    [<a href={x.link}>{x.name}</a>]
                 </span>
                 ))}
             </nav>
@@ -75,8 +75,8 @@ export default function Header() {
                 <span className='white'> WHERE </span>
                 <span className='red'> goals </span>
                 <span className='white'> = '</span>
-                <span className='red'> same</span>
-                <span className='white'> ' </span>
+                <span className='red'>same</span>
+                <span className='white'>' </span>
             </p>
             </div>
         </header>

@@ -22,6 +22,7 @@ h2 {
   font-size: 150%;
   color: var(--color03);
   text-align: center;
+  margin: 20px;
 }
 
 h3 {
@@ -32,7 +33,7 @@ h3 {
   margin-left: 2%;
 }
 
-ul{
+ul {
   color: var(--fg-color);
 }
 
@@ -53,7 +54,7 @@ body {
   color: var(--fg-color);
 }
 
-div{
+div {
   text-align: start;
 }
 
@@ -86,10 +87,16 @@ main {
 }
 
 img {
+  width: 40%;
+  max-width: 240px;
   margin-left: 10x;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 nav {
@@ -146,19 +153,19 @@ nav {
   z-index: 1;
 }
 
-.blue{
+.blue {
   color: rgb(0, 140, 255);
 }
 
-.red{
+.red {
   color: red;
 }
 
-.white{
+.white {
   color: var(--fg-color);
 }
 
-.sql{
+.sql {
   font-family: 'Courier New', monospace;
   text-align: center;
   font-size: 120%;
@@ -173,20 +180,25 @@ nav {
   text-align: start;
 }
 
-
-.glow{
-  text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #ff0,
-    0 0 80px #ff0,
-    0 0 90px #ff0,
-    0 0 100px #ff0,
-    0 0 150px #ff0;
+.glow {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #ff0,
+    0 0 80px #ff0, 0 0 90px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
 }
 
+@media only screen and (max-width: 500px) {
+  /* mobile css */
+  .nav-button {
+    margin: 5px;
+    margin-top: 500px;
+    /* color: red; */
+  }
+}
 
-
-
-
+@media only screen and (min-width: 500px) {
+  /* mobile css */
+  .nav-button {
+    margin: 5px;
+    margin-top: 500px;
+    /* color: red; */
+  }
+}
