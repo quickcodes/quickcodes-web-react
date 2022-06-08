@@ -12,7 +12,8 @@ export default function Home() {
   const INTRO_DESC2 = "This website is a Home for my thoughts. Hopefully you also feel good after reading and if not then you maybe passionate about something else or you may have to make a contact with doctor. ";
 
   // const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg';
-  const AVTAR_IMAGE = "images/avatar.jpg";
+  let profile_name = "avatar"
+  const AVTAR_IMAGE = "images/" + profile_name + ".jpg";
 
   return (
     <div>
@@ -47,7 +48,7 @@ export default function Home() {
         <div className="container">
           <div class="row g-3">
             <div class="centre col-12 col-md-5 h-50">
-              <img src={AVTAR_IMAGE} alt="The Secret of Secrets" />
+              <img src={AVTAR_IMAGE} alt="The Secret" />
             </div>
             <div class="col-12 col-md-7 d-flex flex-column text-white">
               <p className="intro coding-font">{INTRO_DESC1}</p>
