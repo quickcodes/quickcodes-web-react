@@ -20,6 +20,7 @@ export default function App() {
         <Route path="quickcodes-web-react" element={ <Home/> } />
         <Route path="quickcodes-web-react/about" element={ <About/> } />
         <Route path="http://dhruvcodes.me/quickcodes-web-react/about" element={ <Blog/> } />
+        <Route path="/about" element={ <Contact/> } />
       </Routes>
     </div>
   );

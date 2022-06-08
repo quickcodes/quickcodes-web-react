@@ -5,9 +5,9 @@ export default function Header() {
     const LAST_NAME = 'Soni';
     const nav_bar = [
       { name: 'Home', link: "/home" },
-      { name: 'About', link: "about" },
+      { name: 'About', link: "/about" },
       { name: 'Blog', link: "/blog" },
-      { name: 'Github', link: "github" },
+      { name: 'Github', link: "/github" },
       { name: 'Contact', link: "/contact" },
     ];
     const QUOTES =
