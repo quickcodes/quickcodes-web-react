@@ -6,8 +6,8 @@ export default function Header() {
     const nav_bar = [
       { name: 'Home', link: "/home" },
       { name: 'About', link: "/about" },
-      { name: 'Blog', link: "/blog" },
-      { name: 'Github', link: "/github" },
+      { name: 'Blog', link: "blog" },
+      { name: 'Github', link: "quickcodes-web-react/github" },
       { name: 'Contact', link: "/contact" },
     ];
     // const QUOTES =
