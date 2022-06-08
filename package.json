@@ -1,6 +1,7 @@
 {
   "name": "react",
-  "homepage": "https://quickcodes.github.io/quickcodes-web-react/",
+
+  "homepage": ".",
   "version": "0.0.0",
   "dependencies": {
     "-": "^0.0.1",
