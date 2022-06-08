@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quickcodes-web-react/static/css/main.8f3bd2ee.css",
+    "main.js": "/quickcodes-web-react/static/js/main.d27570d0.js",
+    "index.html": "/quickcodes-web-react/index.html",
+    "main.8f3bd2ee.css.map": "/quickcodes-web-react/static/css/main.8f3bd2ee.css.map",
+    "main.d27570d0.js.map": "/quickcodes-web-react/static/js/main.d27570d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f3bd2ee.css",
+    "static/js/main.d27570d0.js"
+  ]
+}
