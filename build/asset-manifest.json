@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.8f3bd2ee.css",
-    "main.js": "./static/js/main.a4d2d039.js",
-    "index.html": "./index.html",
-    "main.8f3bd2ee.css.map": "./static/css/main.8f3bd2ee.css.map",
-    "main.a4d2d039.js.map": "./static/js/main.a4d2d039.js.map"
+    "main.css": "/quickcodes-web-react/static/css/main.8f3bd2ee.css",
+    "main.js": "/quickcodes-web-react/static/js/main.a4d2d039.js",
+    "index.html": "/quickcodes-web-react/index.html",
+    "main.8f3bd2ee.css.map": "/quickcodes-web-react/static/css/main.8f3bd2ee.css.map",
+    "main.a4d2d039.js.map": "/quickcodes-web-react/static/js/main.a4d2d039.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3bd2ee.css",
