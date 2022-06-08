@@ -7,9 +7,9 @@ export default function Home() {
   // const LAST_NAME = 'Soni';
   // const INTRO_HEAD = 'Hi, I am ';
   const INTRO_DESC1 =
-    'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Softwares. I am also a Computer Science Student who using Linux Box.';
+    'I am Dhruv Soni, aka quickcodes. I am a 19 old guy from India, who loves Computers and Softwares. I am also a Computer Science Student and using Linux Box.';
 
-  const INTRO_DESC2 = "This website is a Home for my thoughts. Hopefully you also feel good after reading and if not then you maybe passionate about something else or you may have to make a contact with doctor. ";
+  const INTRO_DESC2 = "This website is a Home for my thoughts. Hopefully you also like them. After visiting this web maybe you won't satisfy maybe are passionate about something else. I tried to make things minimal and simple as possible :) ";
 
   const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg';
   // let profile_name = "avatar"
@@ -68,7 +68,7 @@ export default function Home() {
           <li>
             My <a href="/projects">Blogs</a>
           </li>
-          <li>Website is created by Linux Lover.</li>
+          <li>Website is created by Self Taught Programmer.</li>
         </ul>
       </main>
     </div>
