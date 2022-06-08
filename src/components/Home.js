@@ -12,7 +12,7 @@ export default function Home() {
   const INTRO_DESC2 = "This website is a Home for my thoughts. Hopefully you also feel good after reading and if not then you maybe passionate about something else or you may have to make a contact with doctor. ";
 
   // const AVTAR_IMAGE = 'https://bugswriter.com/avatar.jpg';
-  const AVTAR_IMAGE = 'images/avatar.jpg';
+  const AVTAR_IMAGE = "images/avatar.jpg";
 
   return (
     <div>
