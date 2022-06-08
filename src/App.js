@@ -18,6 +18,7 @@ export default function App() {
         <Route path="blog" element={ <Blog/> } />
         <Route path="github" element={ <Github/> } />
         <Route path="quickcodes-web-react" element={ <Home/> } />
+        <Route path="quickcodes-web-react/about" element={ <Home/> } />
       </Routes>
     </div>
   );
