@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default function Header() {
-    const FIRST_NAME = 'Dhruv';
-    const LAST_NAME = 'Soni';
+    const FIRST_NAME = 'Hello';
+    const LAST_NAME = 'Strainger';
     const nav_bar = [
       { name: 'Home', link: "/home" },
       { name: 'About', link: "/about" },

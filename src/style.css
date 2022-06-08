@@ -50,7 +50,8 @@ p {
 
 body {
   font-family: 'Lora', serif;
-  background-color: var(--bg-color);
+  background-image: url("/public/body-background.jpeg");
+  /* background-color: var(--bg-color); */
   color: var(--fg-color);
 }
 
