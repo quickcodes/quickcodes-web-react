@@ -12,7 +12,7 @@ export default function About() {
             <div class="centre col-12 col-md-5 h-50">
               <img
                 className="border-dark"
-                src="images/1015.jpg"
+                src="images/1192.jpg"
                 alt="The Secret"
               />
             </div>
