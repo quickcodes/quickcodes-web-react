@@ -22,7 +22,7 @@ export default function About() {
 
           <li>
             Maybe you are expecting somthing like - My name is
-            <span className="blue"> $FULL_Name </span>I am
+            <span className="blue"> $FULL_Na </span>I am
             <span className="blue"> $PROFESSION </span>
             and i live in
             <span className="blue"> $CITY. </span>
