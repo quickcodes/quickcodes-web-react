@@ -12,12 +12,12 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" element={ <Home/> } />
-        <Route path="/home" element={ <Home/> } />
+        <Route path="home" element={ <Home/> } />
         <Route path="about" element={ <About/> } />
         <Route path="contact" element={ <Contact/> } />
         <Route path="blog" element={ <Blog/> } />
         <Route path="github" element={ <Github/> } />
-        <Route path="quickcodes-web-react" element={ <Home/> } />
+        {/* <Route path="quickcodes-web-react" element={ <Home/> } /> */}
         <Route path="quickcodes-web-react/about" element={ <Home/> } />
       </Routes>
     </div>
