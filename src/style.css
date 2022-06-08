@@ -208,6 +208,26 @@ nav {
   display: block;
 }
 
+.border-light{
+  border: 3px double #999;
+}
+
+.border-dark{
+  border: 3px double #555;
+}
+
+.margin-10{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cus-img{
+  width: 60%
+}
+
+.pad{
+  padding-top: 0px;
+}
 @media only screen and (max-width: 500px) {
   /* mobile css */
   .nav-button {

@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 import Header from './utils/header';
 // import avtar from '../avtar.jpg'
 
@@ -50,14 +51,16 @@ export default function Home() {
         <div className="container">
           <div class="row g-3">
             <div class="centre col-12 col-md-5 h-50">
-              <img src={AVTAR_IMAGE} alt="The Secret" />
+              <img className='border-dark' src={AVTAR_IMAGE} alt="The Secret" />
             </div>
-            <div class="col-12 col-md-7 d-flex flex-column text-white">
+            <div class="col-12 col-md-7 d-flex flex-column text-white border-light margin-10">
               <p className="intro coding-font">{INTRO_DESC1}</p>
               <p className="intro coding-font">{INTRO_DESC2}</p>
             </div>
           </div>
         </div>
+
+        <div className='border-dark'>
 
         <h2>Website Guide</h2>
         <ul className="coding-font">
@@ -72,7 +75,12 @@ export default function Home() {
           </li>
           <li>Website is created by Self Taught Programmer.</li>
         </ul>
+        </div>
       </main>
+
+
+      <h1 className='margin-10'>About Page</h1>
+      <About></About>
     </div>
   );
 }
