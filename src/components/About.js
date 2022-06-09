@@ -7,14 +7,14 @@ export default function About() {
       <Header />
 
       <main>
-        <h1 className="margin-10">About Me</h1>
+        <h1 className="margin-10 style-h1">About Me</h1>
         {/* container starts  */}
         <div className="container">
           <div className="row g-3">
             {/* Text column  */}
             <div className="col-12 col-md-7 d-flex flex-column text-white border-s margin-10 padd">
               <div>
-                <h2 className="start green coding-font ">
+                <h2 className="start green coding-font style-h2">
                   What more do you wanna know about me?
                 </h2>
 

@@ -4,11 +4,11 @@ export default function Header() {
     const FIRST_NAME = 'Hello';
     const LAST_NAME = 'Strainger';
     const nav_bar = [
-      { name: 'Home', link: "#/home" },
-      { name: 'About', link: "#/about" },
-      { name: 'Blog', link: "#/blog" },
-      { name: 'Github', link: "#/github" },
-      { name: 'Contact', link: "#/contact" },
+      { name: 'Home', link: "/#/home" },
+      { name: 'About', link: "/#/about" },
+      { name: 'Blog', link: "/#/blog" },
+      { name: 'Github', link: "/#/github" },
+      { name: 'Contact', link: "/#/contact" },
     ];
     // const QUOTES =
     //   // ' Descipline and regret both are painfull \nDecide what you want to live with. ';
@@ -43,7 +43,7 @@ export default function Header() {
                 <img className="border-dark top3-img" src={rand_img3} alt="No image" type="jpg" />
             </div>
 
-            <h1>
+            <h1 className='style-h1'>
                 <span className="big_pink">{FIRST_NAME}</span>
                 <span className="big_purple">&nbsp;{LAST_NAME}</span>
             </h1>

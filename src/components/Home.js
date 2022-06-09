@@ -74,18 +74,18 @@ export default function Home() {
         </div>
 
         <div className="border-dark">
-          <h2>Website Guide</h2>
+          <h2 className='style-h2'>Website Guide</h2>
           <ul className="coding-font">
             <li>Use Desktop or laptop for better experience.</li>
             <li>
               If you find this website ugly -{" "}
-              <a href="/minimal">It's minimal</a>
+              <a href="/#/minimal">It's minimal</a>
             </li>
             <li>
-              Check Out my <a href="/projects">Projects.</a>
+              Check Out my <a href="/#/projects">Projects.</a>
             </li>
             <li>
-              My <a href="/projects">Blogs.</a>
+              My <a href="/#/blogs">Blogs.</a>
             </li>
             <li>Website is created by Self Taught Programmer.</li>
           </ul>
@@ -94,7 +94,7 @@ export default function Home() {
 
       
       {/* <About></About> */}
-      <Minimal/>
+      {/* <Minimal/> */}
     </div>
   );
 }

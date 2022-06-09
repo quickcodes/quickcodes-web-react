@@ -6,6 +6,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 import Github from "./components/Github";
+import Minimal from "./components/Minimal";
+import BadWords from "./components/utils/BadWords";
+import Projects from "./components/Projects";
 
 export default function App() {
   return (
@@ -15,12 +18,14 @@ export default function App() {
         <Route path="home" element={ <Home/> } />
         <Route path="about" element={ <About/> } />
         <Route path="contact" element={ <Contact/> } />
-        <Route path="blog" element={ <Blog/> } />
+        <Route path="blogs" element={ <Blog/> } />
         <Route path="github" element={ <Github/> } />
         <Route path="quickcodes-web-react" element={ <Home/> } />
-        <Route path="quickcodes-web-react/about" element={ <About/> } />
-        <Route path="http://dhruvcodes.me/quickcodes-web-react/about" element={ <Blog/> } />
-        <Route path="/about" element={ <Contact/> } />
+        <Route path="minimal" element={ <Minimal/> } />
+        <Route path="bad-words" element={ <BadWords/> } />
+        <Route path="projects" element={ <Projects/> } />
+        {/* <Route path="github" element={ <Github/> } /> */}
+        {/* <Route path="github" element={ <Github/> } /> */}
       </Routes>
     </div>
   );
