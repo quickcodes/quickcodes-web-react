@@ -93,7 +93,7 @@ export default function Home() {
       </main>
 
       
-      <About></About>
+      {/* <About></About> */}
       <Minimal/>
     </div>
   );
