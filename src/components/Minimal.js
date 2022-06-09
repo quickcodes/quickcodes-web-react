@@ -99,7 +99,7 @@ export default function Minimal() {
             </p>
                 
             <h2 className='style-h2'>
-              Still think it is ugly? <a href="/#/bad-words">click Here</a>
+              Still think it is ugly? <a href="#/bad-words">click Here</a>
             </h2>
           </div>
         </div>

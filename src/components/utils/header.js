@@ -4,11 +4,11 @@ export default function Header() {
     const FIRST_NAME = 'Hello';
     const LAST_NAME = 'Strainger';
     const nav_bar = [
-      { name: 'Home', link: "/#/home" },
-      { name: 'About', link: "/#/about" },
-      { name: 'Blog', link: "/#/blog" },
-      { name: 'Github', link: "/#/github" },
-      { name: 'Contact', link: "/#/contact" },
+      { name: 'Home', link: "#/home" },
+      { name: 'About', link: "#/about" },
+      { name: 'Blog', link: "#/blog" },
+      { name: 'Github', link: "#/github" },
+      { name: 'Contact', link: "#/contact" },
     ];
     // const QUOTES =
     //   // ' Descipline and regret both are painfull \nDecide what you want to live with. ';
