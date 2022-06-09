@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/quickcodes-web-react/static/css/main.3977f2f5.css",
-    "main.js": "/quickcodes-web-react/static/js/main.52ff74d3.js",
+    "main.js": "/quickcodes-web-react/static/js/main.ce398982.js",
     "static/media/body-background.jpeg": "/quickcodes-web-react/static/media/body-background.492e440360162941ede2.jpeg",
     "index.html": "/quickcodes-web-react/index.html",
     "main.3977f2f5.css.map": "/quickcodes-web-react/static/css/main.3977f2f5.css.map",
-    "main.52ff74d3.js.map": "/quickcodes-web-react/static/js/main.52ff74d3.js.map"
+    "main.ce398982.js.map": "/quickcodes-web-react/static/js/main.ce398982.js.map"
   },
   "entrypoints": [
     "static/css/main.3977f2f5.css",
-    "static/js/main.52ff74d3.js"
+    "static/js/main.ce398982.js"
   ]
 }
