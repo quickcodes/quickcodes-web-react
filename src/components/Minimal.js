@@ -21,7 +21,7 @@ export default function Minimal() {
             <div className="col-12 col-md-7 d-flex flex-column text-white border-s margin-10 padd">
               <div>
                 <h2 className="start green coding-font ">
-                  Is it ugly, bloated, slow? Or is it minimal, clean, fast?
+                  Is this website ugly, bloated, slow? Or is it minimal, clean, fast?
                 </h2>
 
                 {/* <ul className=" coding-font">
