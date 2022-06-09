@@ -82,7 +82,7 @@ main {
   display: block;
   width: 90%;
   max-width: 800px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   padding-top: 10px;
   /* float: none; */
   border-bottom: 2px solid var(--color00);
