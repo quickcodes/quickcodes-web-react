@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { Routes, Route } from "react-router-dom"
 import Home from "./components/Home";
@@ -9,8 +9,16 @@ import Github from "./components/Github";
 import Minimal from "./components/Minimal";
 import BadWords from "./components/utils/BadWords";
 import Projects from "./components/Projects";
+import Reactga from "react-ga";
 
 export default function App() {
+
+  useEffect(() => {
+    Reactga.initialize('UA-197627868-1')
+
+    Reactga.pageview(window.location.pathname + window.location.search)
+  }, [])
+
   return (
     <div>
       <Routes>
