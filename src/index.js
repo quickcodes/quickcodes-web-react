@@ -5,11 +5,11 @@ import App from './App';
 import { HashRouter, BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  // <HashRouter>
-  //   <App />
-  // </HashRouter>,
-  <BrowserRouter>
-  <App />
-</BrowserRouter>,
+  <HashRouter>
+    <App />
+  </HashRouter>,
+//   <BrowserRouter>
+//   <App />
+// </BrowserRouter>,
   document.getElementById('root')
 );
