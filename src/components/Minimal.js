@@ -23,8 +23,8 @@ export default function Minimal() {
             <div className="col-12 col-md-7 d-flex flex-column text-white border-s margin-10 padd">
               <div>
                 <h2 className="start green coding-font para-padding style-h2">
-                  What are your toughts about this website? Is this It ugly, bloated, slow? Or is it minimal, clean,
-                  fast?
+                  What are your toughts about this website? Is it ugly, bloated,
+                  slow? Or is it minimal, clean, fast?
                 </h2>
 
                 {/* <ul className=" coding-font">
@@ -86,19 +86,21 @@ export default function Minimal() {
 
             <p className="coding-font border-dark para-padding">
               Do you why Google is the world most popular search engine? whereas
-              There are lot's of other search engine's are available. <br/>Because at the initial 
-              age search engines where others have adds, popups, trackers on there search engine
-              Google just provide a logo and search bar in centre. 
+              There are lot's of other search engine's are available. <br />
+              Because at the initial age search engines where others have adds,
+              popups, trackers on there search engine Google just provide a logo
+              and search bar in centre.
             </p>
 
             <p className="coding-font border-dark para-padding">
-              If you are searching for a recipe on internet and you found 2 Websites there. 
-              First one is eye catchy, Beautiful, loaded with adds, trackers, junk. 
-              and the other one is simple, intractive, fast, and just provide you a recipe.
-              You will definately gonna choose the second one. right?
+              If you are searching for a recipe on internet and you found 2
+              Websites there. First one is eye catchy, Beautiful, loaded with
+              adds, trackers, junk. and the other one is simple, intractive,
+              fast, and just provide you a recipe. You will definately gonna
+              choose the second one. right?
             </p>
-                
-            <h2 className='style-h2'>
+
+            <h2 className="style-h2">
               Still think it is ugly? <a href="#/bad-words">click Here</a>
             </h2>
           </div>
@@ -115,7 +117,6 @@ export default function Minimal() {
             <li>Basics of DataBase.</li>
           </ul>
         </p> */}
-
       </main>
     </div>
   );
