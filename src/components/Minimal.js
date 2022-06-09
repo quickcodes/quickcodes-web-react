@@ -62,7 +62,7 @@ export default function Minimal() {
                 In our century <span className="bg-color-custom">most of the websites are ugly</span> But not by
                 there UI, look, animations, etc. They are ugly by there
                 adds, trackers, blotwares, etc. <span className="bg-color-custom">A normal website cost you almost 5MB -
-                30MB and took 5-10 seconds to load a web page.</span> Now you must say we have super
+                30MB data and took 5-10 seconds to load a web page.</span> Now you must say we have super
                 fast processors and high speed bandwidth we don't care about
                 it anymore. But here is the catch that the
                 <span className="bg-color-custom">core/main/relevant content of the websites is costing less

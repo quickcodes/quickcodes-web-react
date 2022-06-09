@@ -20,7 +20,7 @@ export default function About() {
 
                 <ul className=" coding-font">
                   <li>
-                    When someone asks Tell me about yourself? It almost feels
+                    When someone asks <span className="bg-color-custom">Tell me about yourself?</span> It almost feels
                     like someone allowed me to sing an old song. Same lyrics
                     with some variables in it.
                   </li>
