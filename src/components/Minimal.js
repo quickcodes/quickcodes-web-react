@@ -21,10 +21,10 @@ export default function Minimal() {
             <div className="col-12 col-md-7 d-flex flex-column text-white border-s margin-10 padd">
               <div>
                 <h2 className="start green coding-font ">
-                  Is it ugly? or is it minimal, clean, fast?
+                  Is it ugly, bloated, slow? Or is it minimal, clean, fast?
                 </h2>
 
-                <ul className=" coding-font">
+                {/* <ul className=" coding-font">
                   <li>
                     In our century most of the websites are ugly But not by
                     there UI, look, animations, etc. They are ugly by there
@@ -39,7 +39,7 @@ export default function Minimal() {
                     for the web. 
                   </li>
 
-                  {/* <li>
+                  <li>
                     Maybe you are expecting somthing like - My name is
                     <span className="blue"> $FULL_Na </span>I am
                     <span className="blue"> $PROFESSION </span>
@@ -53,10 +53,26 @@ export default function Minimal() {
                     What defines me is that i like to live a minimal life. where
                     no continous blotted &amp; shity notifications are comming
                     to my phone.
-                  </li> */}
-                </ul>
+                  </li>
+                </ul> */}
               </div>
             </div>
+
+            <p className="coding-font border-dark para-padding">
+                In our century <span className="bg-color-custom">most of the websites are ugly</span> But not by
+                there UI, look, animations, etc. They are ugly by there
+                adds, trackers, blotwares, etc. <span className="bg-color-custom">A normal website cost you almost 5MB -
+                30MB and took 5-10 seconds to load a web page.</span> Now you must say we have super
+                fast processors and high speed bandwidth we don't care about
+                it anymore. But here is the catch that the
+                <span className="bg-color-custom">core/main/relevant content of the websites is costing less
+                then 1MB and took less than 1 second to load.</span> So Where the remamining data and time gone? Yes, You are
+                right! The remaining data is eated by those adds, trackers,
+                javascripts, blotwares, etc. Which are even not necessary
+                for the web. 
+                
+            </p>
+
           </div>
         </div>
 
