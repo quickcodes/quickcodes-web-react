@@ -6,7 +6,7 @@ export default function Header() {
     const nav_bar = [
       { name: 'Home', link: "#/home" },
       { name: 'About', link: "#/about" },
-      { name: 'Blog', link: "#/blogs" },
+      { name: 'Blogs', link: "#/blogs" },
       { name: 'Github', link: "#/github" },
       { name: 'Contact', link: "#/contact" },
     ];
