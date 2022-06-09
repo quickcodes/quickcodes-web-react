@@ -64,14 +64,15 @@ export default function Home() {
 
         <h2>Website Guide</h2>
         <ul className="coding-font">
+          <li>Use Desktop or laptop for better experience.</li>
           <li>
             If you find this website ugly - <a href="/minimal">It's minimal</a>
           </li>
           <li>
-            Check Out my <a href="/projects">Projects</a>
+            Check Out my <a href="/projects">Projects.</a>
           </li>
           <li>
-            My <a href="/projects">Blogs</a>
+            My <a href="/projects">Blogs.</a>
           </li>
           <li>Website is created by Self Taught Programmer.</li>
         </ul>
@@ -79,7 +80,7 @@ export default function Home() {
       </main>
 
 
-      <h1 className='margin-10'>About Page</h1>
+      <h1 className='margin-10'>About Me</h1>
       <About></About>
     </div>
   );

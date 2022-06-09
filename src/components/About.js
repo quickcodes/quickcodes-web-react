@@ -7,16 +7,11 @@ export default function About() {
       {/* <Header /> */}
 
       <main>
+        {/* container starts  */}
         <div className="container">
           <div class="row g-3">
-            <div class="centre col-12 col-md-5 h-50">
-              <img
-                className="border-dark"
-                src="images/1192.jpg"
-                alt="The Secret"
-              />
-            </div>
 
+            {/* Text column  */}
             <div class="col-12 col-md-7 d-flex flex-column text-white border-light margin-10 padd">
               <div>
                 <h2 className="start green coding-font ">
@@ -48,6 +43,16 @@ export default function About() {
                 </ul>
               </div>
             </div>
+
+            {/* Image Column  */}
+            <div class="centre col-12 col-md-5 h-50">
+              <img
+                className="border-dark"
+                src="images/1192.jpg"
+                alt="The Secret"
+              />
+            </div>
+
           </div>
         </div>
       </main>
