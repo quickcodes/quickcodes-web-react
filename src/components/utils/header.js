@@ -56,10 +56,10 @@ export default function Header() {
             </div>
 
             <div className="centre">
-            <nav className="coding-font">
+            <nav className="">
                 {nav_bar.map((x) => (
                 <span className="nav-button">
-                    [<a href={x.link}>{x.name}</a>]
+                    [<a className='coding-font' href={x.link}>{x.name}</a>]
                 </span>
                 ))}
             </nav>

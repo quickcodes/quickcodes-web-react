@@ -212,6 +212,12 @@ nav {
   border: 3px double #999;
 }
 
+.border-s{
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+
 .border-dark{
   border: 3px double #555;
 }
@@ -228,6 +234,16 @@ nav {
 .pad{
   padding-top: 0px;
 }
+
+.bg-color-custom {
+  background-color: #555;
+}
+
+.para-padding{
+  padding: 20px;
+}
+
+
 @media only screen and (max-width: 500px) {
   /* mobile css */
   .nav-button {
@@ -269,9 +285,10 @@ nav {
     /* width: 50%; */
   }
 
-  .intro {
+  .paragraph {
     text-align: start;
     padding-top: 10px;
+    margin: 5px;
   }
 }
 
