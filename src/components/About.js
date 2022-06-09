@@ -4,7 +4,7 @@ import Header from "./utils/header";
 export default function About() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
 
       <main>
         <h1 className="margin-10">About Me</h1>
