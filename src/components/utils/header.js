@@ -4,9 +4,9 @@ export default function Header() {
     const FIRST_NAME = 'Hello';
     const LAST_NAME = 'Strainger';
     const nav_bar = [
-      { name: 'Home', link: "/home" },
-    //   { name: 'About', link: "/about" },
-      { name: 'Blog', link: "blog" },
+      { name: 'Home', link: "#/home" },
+      { name: 'About', link: "#/about" },
+      { name: 'Blog', link: "#/blog" },
       { name: 'Github', link: "quickcodes-web-react/github" },
       { name: 'Contact', link: "/contact" },
     ];
